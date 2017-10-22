@@ -7,7 +7,7 @@ ADD_DEFINITIONS(
         -O2
 )
 
-set(SOURCE_FILES main.cpp MainListener.cpp MainListener.h EntityRequestHandlerFactory.cpp EntityRequestHandlerFactory.h EntityRequestHandler.cpp EntityRequestHandler.h)
+set(SOURCE_FILES main.cpp MainListener.cpp MainListener.h src/EntityRequestHandlerFactory.cpp src/EntityRequestHandlerFactory.h src/MessageGetter.cpp src/MessageGetter.h src/MessagesQueue.cpp src/MessagesQueue.h src/MessageAdder.cpp src/MessageAdder.h)
 
 add_subdirectory(contrib/json)
 include_directories(contrib/json/src)
